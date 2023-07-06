@@ -1,5 +1,5 @@
 stages {
   steps {
-    sh "echo Hello World"
+    sayHello(name: "Vader", pipeline: "66th")
   }
 }
